@@ -27,9 +27,28 @@ This include assignment given by the salts
   ```
   python3 flask-health-api.py
   ```
-- Run the Application
+- Endpoint(s)
 [Health API](http://localhost:8080/health) or
 [Health API](http://127.0.0.1:8080/health)
-## Task2
+## Task2 - Dockerrise the application
+### Pre-requisite
+- [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
 
+- Running the Application
+
+  - Change the Directory
+    ```
+    cd Xalts/task2
+    ```
+  - Build the dockerfile
+    ```
+    sudo docker build -t mfzs/flaskapp:0.0.1 -f Dockerfile . --no-cache
+    ```
+  - run the container
+    ```
+    sudo docker run -dit -p 8080:8080 --name flaskapp  mfzs/flaskapp:0.0.1
+    ```
+  - Endpoint(s)
+[Health API](http://localhost:8080/health) or
+[Health API](http://127.0.0.1:8080/health)
 ## Task3
