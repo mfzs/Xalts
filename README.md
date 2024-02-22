@@ -62,7 +62,7 @@ Note: Kindly use debian system, if you want to use Mac or RHEL
 ## Task3
 ### Pre-requisite
 - [Install terraform](https://developer.hashicorp.com/terraform/install#linux)
-- Create a creds json file for your service account [GCP_Link](https://cloud.google.com/iam/docs/keys-create-delete)
+- Create a creds json file for your service account, Follow this [link](https://cloud.google.com/iam/docs/keys-create-delete) for instructions.
     - Put this file at /etc/creds.json in your system or change the path in terraform.tf file
 
 - Running the Application
