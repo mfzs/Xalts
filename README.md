@@ -1,5 +1,7 @@
 # Xalts
-This include assignment given by the xalts for running a flask app using different things
+This include assignment given by the xalts for running a flask app using different things.
+Note: Kindly use debian system, if you want to use Mac or RHEL
+
 
 ## Table of Contents
 - [Task 1](#Task1)
