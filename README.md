@@ -1,6 +1,6 @@
 # Xalts
 This include assignment given by the xalts for running a flask app using different things.
-Note: Kindly use debian system, if you want to use Mac or RHEL
+Note: Kindly use debian system, if you want to use Mac or RHEL you may need to change the installtion process.
 
 
 ## Table of Contents
