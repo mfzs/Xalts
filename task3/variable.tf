@@ -1,5 +1,5 @@
 variable "project_id" {
-  default = "nextscm-experiments"
+  default = "project-id"
 }
 
 variable "region" {
