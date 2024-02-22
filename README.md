@@ -22,13 +22,13 @@ Note: Kindly use debian system, if you want to use Mac or RHEL
    git clone https://github.com/mfzs/Xalts.git
    ```
  - Change the Directory
-  ```
-  cd Xalts/task1
-  ```
+   ```
+   cd ~/Xalts/task1
+   ```
  - Run the flask app
-  ```
-  python3 flask-health-api.py
-  ```
+   ```
+   python3 flask-health-api.py
+   ```
 - Endpoint(s)
 [Health API](http://localhost:8080/health) or
 [Health API](http://127.0.0.1:8080/health)
@@ -43,7 +43,7 @@ Note: Kindly use debian system, if you want to use Mac or RHEL
 
   - Change the Directory
     ```
-    cd Xalts/task2
+    cd ~/Xalts/task2
     ```
   - Build the dockerfile
     ```
@@ -67,9 +67,9 @@ Note: Kindly use debian system, if you want to use Mac or RHEL
 
 - Running the Application
     - Change the Directory
-    ```
-    cd Xalts/task3
-    ```
+      ```
+      cd ~/Xalts/task3
+      ```
     - Init your repo
       ```
       sudo terraform init
