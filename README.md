@@ -52,8 +52,8 @@ This include assignment given by the xalts for running a flask app using differe
     sudo docker run -dit -p 8080:8080 --name flaskapp  mfzs/flaskapp:0.0.1
     ```
   - Endpoint(s)
-[Health API](http://localhost:8080/health) or
-[Health API](http://127.0.0.1:8080/health)
+[Health API](http://127.0.0.1:8080/health) or [Health API](http://localhost:8080/health)
+
 
 
 
