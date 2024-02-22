@@ -1,5 +1,5 @@
 # Xalts
-This include assignment given by the salts
+This include assignment given by the xalts for running a flask app using different things
 
 ## Table of Contents
 - [Task 1](#Task1)
